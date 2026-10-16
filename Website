@@ -1,10 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to my new website hosted on GitHub Pages.</p>
+
+    <!-- Header / Hero Section -->
+    <header class="hero">
+        <h1>Hi, I'm <span class="highlight">[Your Name]</span> 👋</h1>
+        <p>Welcome to my personal website hosted on GitHub Pages!</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </header>
+
+    <!-- About Section -->
+    <section class="container">
+        <h2>About Me</h2>
+        <p>
+            I am learning web development and building cool projects. This site is my dynamic workspace where I showcase what I'm working on and what I'm learning!
+        </p>
+    </section>
+
+    <!-- Projects / Skills Section -->
+    <section id="projects" class="container">
+        <h2>My Projects</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>🚀 Project One</h3>
+                <p>A cool project description goes here. Explain what you built and why!</p>
+            </div>
+            <div class="card">
+                <h3>🎨 Project Two</h3>
+                <p>Another project description. You can link to other repositories or live demos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer>
+        <p>Connect with me on <a href="https://github.com">GitHub</a></p>
+        <p>© 2026 Built with GitHub Pages</p>
+    </footer>
+
 </body>
 </html>
