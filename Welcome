@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Noel Nakao </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Hero Section -->
+    <header class="hero">
+        <h1>Hi, my name  <span class="highlight">[Noel Nakao]</span> 👋</h1>
+        <p>Welcome to my personal website!</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </header>
+
+    <!-- About Section -->
+    <section class="container">
+        <h2>About Me</h2>
+        <p>
+           I am currently a 2nd year at UC Berkeley. I am majoring in Earth and Planetary Science with a specialization in Geology. My interests include, seismology, natural hazard mitigation, soil behavior, and geotechnical engineering. 
+        </p>
+    </section>
+
+    <!-- Projects / Skills Section -->
+    <section id="projects" class="container">
+        <h2>My Projects</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>🚀 Project One</h3>
+                <p>A cool project description goes here. Explain what you built and why!</p>
+            </div>
+            <div class="card">
+                <h3>🎨 Project Two</h3>
+                <p>Another project description. You can link to other repositories or live demos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer>
+        <p>Connect with me on <a href="https://github.com">GitHub</a></p>
+        <p>© 2026 Built with GitHub Pages</p>
+    </footer>
+
+</body>
+</html>
